@@ -1,6 +1,6 @@
-package api.test;
+package c2engine.test;
 
-import api.screens.LoadingScreenAbstract;
+import c2engine.screens.LoadingScreenAbstract;
 
 public class TestLoadingScreen extends LoadingScreenAbstract{
 
@@ -43,6 +43,11 @@ public class TestLoadingScreen extends LoadingScreenAbstract{
 	public void onRender(float render) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void preload() {
+//		ResourceManager.preloadAssets(TestAssets.TX_TEST_BACKGROUND);
 	}
 
 }

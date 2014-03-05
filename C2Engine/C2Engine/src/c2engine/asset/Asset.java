@@ -1,4 +1,4 @@
-package api.asset;
+package c2engine.asset;
 
 /**
  * This class contain information about asset
@@ -7,9 +7,9 @@ package api.asset;
  */
 public class Asset {
 	public String pathName;
-	public Class clazz;
+	public Class<?> clazz;
 	
-	public Asset(String pathName,Class clazz) {
+	public Asset(String pathName,Class<?> clazz) {
 		this.pathName = pathName;
 		this.clazz = clazz;
 	}

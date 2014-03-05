@@ -1,8 +1,9 @@
-package api.test;
+package c2engine.test;
+
+import c2engine.asset.Asset;
 
 import com.badlogic.gdx.graphics.Texture;
 
-import api.asset.Asset;
 
 public class TestAssets {
 	public static Asset TX_TEST_BACKGROUND = new Asset("data/libgdx.png",Texture.class);

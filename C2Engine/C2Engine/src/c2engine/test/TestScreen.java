@@ -1,18 +1,18 @@
-package api.test;
+package c2engine.test;
+
+import c2engine.asset.Asset;
+import c2engine.asset.AssetManageable;
+import c2engine.asset.ResourceManager;
+import c2engine.screens.XScreen;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Array;
 
-import api.asset.Asset;
-import api.asset.AssetManageable;
-import api.asset.ResourceManager;
-import api.screens.MyScreen;
 
-public class TestScreen extends MyScreen implements AssetManageable {
+public class TestScreen extends XScreen implements AssetManageable {
 	Texture texture;
 
 	@Override
@@ -77,14 +77,14 @@ public class TestScreen extends MyScreen implements AssetManageable {
 	}
 
 	@Override
-	public Iterable<Asset> getAssetsNeedToLoad() {
+	public Iterable<Asset> loadNeedAssets() {
 		Array<Asset> assets = new Array<Asset>();
 		assets.add(TestAssets.TX_TEST_BACKGROUND);
 		return assets;
 	}
 
 	@Override
-	public Iterable<Asset> getAssetsNeedToUnload() {
+	public Iterable<Asset> unloadAssets() {
 		return null;
 	}
 

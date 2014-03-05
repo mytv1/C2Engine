@@ -1,17 +1,18 @@
-package api.test;
+package c2engine.test;
+
+import c2engine.asset.Asset;
+import c2engine.asset.AssetManageable;
+import c2engine.asset.FramesGenerator;
+import c2engine.asset.ResourceManager;
+import c2engine.screens.XScreen;
+import c2engine.sprite.SpriteAnimation;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.utils.Array;
 
-import api.asset.Asset;
-import api.asset.AssetManageable;
-import api.asset.FramesGenerator;
-import api.asset.ResourceManager;
-import api.screens.MyScreen;
-import api.sprite.SpriteAnimation;
 
-public class TestScreen2 extends MyScreen implements AssetManageable {
+public class TestScreen2 extends XScreen implements AssetManageable {
 	SpriteAnimation spriteAnimationSimple;
 	TestSpriteAnimation testSpriteAnimation;
 	
@@ -26,7 +27,7 @@ public class TestScreen2 extends MyScreen implements AssetManageable {
 	}
 
 	private void initSpriteAnimation() {
-		spriteAnimationSimple = new SpriteAnimation(FramesGenerator.getFramesFromTextureType1(TestAssets.TX_TEST_DRAGON, 6));
+		spriteAnimationSimple = new SpriteAnimation(FramesGenerator.getFramesFromTexture(TestAssets.TX_TEST_DRAGON, 1, 6));
 		spriteAnimationSimple.resize(0.5f);
 		spriteAnimationSimple.start(0.1f,Animation.LOOP);
 	}
@@ -62,7 +63,7 @@ public class TestScreen2 extends MyScreen implements AssetManageable {
 	}
 
 	@Override
-	public Iterable<Asset> getAssetsNeedToLoad() {
+	public Iterable<Asset> loadNeedAssets() {
 		Array<Asset> assets = new Array<Asset>();
 		assets.add(TestAssets.TX_TEST_BACKGROUND);
 		assets.addAll(TestAssets.PACK_TEST_DRAGON);
@@ -70,7 +71,7 @@ public class TestScreen2 extends MyScreen implements AssetManageable {
 	}
 
 	@Override
-	public Iterable<Asset> getAssetsNeedToUnload() {
+	public Iterable<Asset> unloadAssets() {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -1,4 +1,4 @@
-package api.asset;
+package c2engine.asset;
 
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.Texture;
@@ -21,7 +21,7 @@ public class ResourceManager {
 	 * @param clazz
 	 * @return
 	 */
-	public static <T> T get(Asset asset,Class<T> clazz){
+	public static <T> T get(Asset asset, Class<T> clazz){
 		return assetManager.get(asset.pathName, clazz);
 	}
 	
@@ -33,6 +33,17 @@ public class ResourceManager {
 	 */
 	public static Texture getTexture(Asset asset){
 		return assetManager.get(asset.pathName, Texture.class);
+	}
+	
+	public static float getProgress() {
+		return assetManager.getProgress();
+	}
+	
+	public static void preloadAssets(Asset ...assets) {
+		for (Asset asset : assets) {
+			loadAsset(asset);
+		}
+		assetManager.finishLoading();
 	}
 
 	public static void loadAssets(Iterable<Asset> assets) {
@@ -70,5 +81,4 @@ public class ResourceManager {
 	public static void loadAsset(Asset asset) {
 		assetManager.load(asset.pathName, asset.clazz);
 	}
-
 }

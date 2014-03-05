@@ -1,6 +1,4 @@
-package api.asset;
-
-import com.badlogic.gdx.utils.Array;
+package c2engine.asset;
 
 /**
  * The object which other can get asset from that
@@ -9,7 +7,7 @@ import com.badlogic.gdx.utils.Array;
  */
 public interface AssetManageable { // "able" should be add in last of interface name, it's reminiscent that this is a interface
 	
-	public Iterable<Asset> getAssetsNeedToLoad();
+	public Iterable<Asset> loadNeedAssets();
 	
-	public Iterable<Asset> getAssetsNeedToUnload();
+	public Iterable<Asset> unloadAssets();
 }

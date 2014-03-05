@@ -1,4 +1,4 @@
-package api.sprite;
+package c2engine.sprite;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
@@ -150,7 +150,7 @@ public class SpriteAnimation implements Animator, SpriteBackend {
 		return mFrameDuration;
 	}
 
-	public SpriteAnimation(Array region) {
+	public SpriteAnimation(Array<?> region) {
 		keyFrames = new TextureRegion[region.size];
 		for (int i = 0; i < keyFrames.length; i++)
 			keyFrames[i] = (TextureRegion) region.get(i);
@@ -519,7 +519,7 @@ public class SpriteAnimation implements Animator, SpriteBackend {
 		setOrigin(width / 2, height / 2);
 	}
 
-	public void setKeyFrames(Array keyFrame) {
+	public void setKeyFrames(Array<?> keyFrame) {
 		keyFrames = new TextureRegion[keyFrame.size];
 		for (int i = 0; i < keyFrames.length; i++)
 			keyFrames[i] = (TextureRegion) keyFrame.get(i);
@@ -570,22 +570,6 @@ public class SpriteAnimation implements Animator, SpriteBackend {
 	}
 
 	public void update(float delta) {
-		// if (!RUN || mFrameDuration == 0) {
-		// // ============= update updatable =============
-		// for (int i = 0, n = mUpdater.size; i < n; i++) {
-		// final Updater tmp = mUpdater.get(i);
-		//
-		// if (!tmp.isStoped())
-		// tmp.update(this, delta);
-		// else {
-		// mUpdater.removeValue(tmp, true);
-		// --i;
-		// --n;
-		// }
-		// }
-		// return;
-		// }
-
 		if (!RUN)
 			return;
 		mStateTime += delta;
@@ -619,31 +603,34 @@ public class SpriteAnimation implements Animator, SpriteBackend {
 			frameNumber = Math.min(keyFrames.length - 1, frameNumber);
 			break;
 		}
-//		 D.out("frame number : "+frameNumber);
 		setRegion(keyFrames[frameNumber]);
-		// ============= update updatable =============
-		// for (int i = 0, n = mUpdater.size; i < n; i++) {
-		// final Updater tmp = mUpdater.get(i);
-		//
-		// if (!tmp.isStoped())
-		// tmp.update(this, delta);
-		// else {
-		// mUpdater.removeValue(tmp, true);
-		// --i;
-		// --n;
-		// }
-		// }
+		
 		if (isFlipX && !getCurrentFrame().isFlipX()) {
 			for(int i = 0;i< keyFrames.length;i++)
 				if (!keyFrames[i].isFlipX())
 					keyFrames[i].flip(true, false);
 			adjX += scaleTransX;
-		} 
+		}
+		
 		if (!isFlipX && getCurrentFrame().isFlipX()) {
 			for(int i = 0;i< keyFrames.length;i++)
 				if (keyFrames[i].isFlipX())
 					keyFrames[i].flip(true, false);
 			adjX -= scaleTransX;
+		}
+		
+		if (isFlipY && !getCurrentFrame().isFlipY()) {
+			for(int i = 0;i< keyFrames.length;i++)
+				if (!keyFrames[i].isFlipY())
+					keyFrames[i].flip(false, true);
+			adjY += scaleTransY;
+		}
+		
+		if (!isFlipY && getCurrentFrame().isFlipY()) {
+			for(int i = 0;i< keyFrames.length;i++)
+				if (keyFrames[i].isFlipY())
+					keyFrames[i].flip(false, true);
+			adjY -= scaleTransY;
 		}
 	}
 
@@ -659,31 +646,6 @@ public class SpriteAnimation implements Animator, SpriteBackend {
 	public TextureRegion[] getFrames() {
 		return this.keyFrames;
 	}
-
-	// public void postUpdater (Updater updater)
-	// {
-	// if (mUpdater.contains(updater, true))
-	// return;
-	//
-	// updater.start();
-	// this.mUpdater.add(updater);
-	// }
-	//
-	// public int sizeUpdater ()
-	// {
-	// return mUpdater.size;
-	// }
-	//
-	// @Override
-	// public void removeUpdater (Updater updater)
-	// {
-	// mUpdater.removeValue(updater, true);
-	// }
-	//
-	// public void noUpdater ()
-	// {
-	// this.mUpdater.clear();
-	// }
 
 	@Override
 	public boolean isRunning() {
@@ -1039,6 +1001,7 @@ public class SpriteAnimation implements Animator, SpriteBackend {
 		setColor(1, 1, 1, 1);
 	}
 
+	@SuppressWarnings("unused")
 	private float[] getAdjustVertices() {
 		float[] vertices = getVertices();
 		vertices[X1] -= adjX;

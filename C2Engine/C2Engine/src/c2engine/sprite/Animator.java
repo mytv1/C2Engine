@@ -1,13 +1,11 @@
-package api.sprite;
-
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
+package c2engine.sprite;
 
 /**
  * A class make it easy to manage animation of sprite
  * @author Ngo Trong TRung
  */
 public interface Animator {
+	
 	public void setFrameDuration(float frameDuration);
 	
 	public void start();

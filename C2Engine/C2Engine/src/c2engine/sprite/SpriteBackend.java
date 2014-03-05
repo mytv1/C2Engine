@@ -1,5 +1,5 @@
 
-package api.sprite;
+package c2engine.sprite;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -9,7 +9,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
  * @FileName: SpriteBackend.java
  * @CreateOn: Sep 23, 2012 - 2:49:59 PM
  * @Author: TrungNT */
-public interface SpriteBackend{
+public interface SpriteBackend {
 
 	// =================================================
 	// setter
@@ -72,7 +72,6 @@ public interface SpriteBackend{
 	public float getScaleX ();
 
 	public float getScaleY ();
-
 
 	public void update (float delta);
 

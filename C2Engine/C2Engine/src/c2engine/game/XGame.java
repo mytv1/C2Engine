@@ -1,15 +1,15 @@
-package api.game;
+package c2engine.game;
 
-import api.screens.LoadingScreenAbstract;
-import api.screens.MyScreen;
+
+import c2engine.screens.LoadingScreenAbstract;
+import c2engine.screens.XScreen;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 
-public abstract class MyGame extends Game{
-
-	LoadingScreenAbstract loadingScreenAbstract;
+public abstract class XGame extends Game {
+	private LoadingScreenAbstract loadingScreenAbstract;
 
 	@Override
 	public void create() {
@@ -25,8 +25,8 @@ public abstract class MyGame extends Game{
 	private void configure() {
 		Gdx.input.setCatchBackKey(true);
 		loadingScreenAbstract = createLoadingScreen();
-		loadingScreenAbstract.setGame(this);
-		MyScreen.setMyGame(this);
+		loadingScreenAbstract.createGame(this);
+		XScreen.setCoreGame(this);
 	}
 	
 	public abstract LoadingScreenAbstract createLoadingScreen();

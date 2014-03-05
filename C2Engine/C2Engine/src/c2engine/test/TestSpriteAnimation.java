@@ -1,10 +1,11 @@
-package api.test;
+package c2engine.test;
+
+import c2engine.asset.FramesGenerator;
+import c2engine.sprite.SpriteAnimation;
 
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
-import api.asset.FramesGenerator;
-import api.sprite.SpriteAnimation;
 
 public class TestSpriteAnimation extends SpriteAnimation{
 	float timeCount;
@@ -12,8 +13,8 @@ public class TestSpriteAnimation extends SpriteAnimation{
 	byte state = 1;
 	
 	public TestSpriteAnimation() {
-		flyFrames = FramesGenerator.getFramesFromTextureType1(TestAssets.TX_TEST_DRAGON, 6);
-		dieFrames = FramesGenerator.getFramesFromTextureType1(TestAssets.TX_TEST_DRAGON_DIE, 6);
+		flyFrames = FramesGenerator.getFramesFromTexture(TestAssets.TX_TEST_DRAGON, 1, 6);
+		dieFrames = FramesGenerator.getFramesFromTexture(TestAssets.TX_TEST_DRAGON_DIE, 1, 6);
 		setKeyFrames(flyFrames);
 		start(0.1f, Animation.LOOP);
 		resize(0.5f);
