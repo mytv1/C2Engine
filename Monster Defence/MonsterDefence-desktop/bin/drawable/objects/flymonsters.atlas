@@ -1,0 +1,673 @@
+
+flymonsters.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fappy-die-1
+  rotate: false
+  xy: 1, 704
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+fappy-die-10
+  rotate: false
+  xy: 1, 406
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+fappy-die-2
+  rotate: false
+  xy: 1, 108
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-1
+  rotate: false
+  xy: 558, 610
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+lord-fly-10
+  rotate: false
+  xy: 558, 218
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+fappy-fly-1
+  rotate: false
+  xy: 558, 19
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+bird-die-1
+  rotate: false
+  xy: 924, 14
+  size: 89, 202
+  orig: 89, 202
+  offset: 0, 0
+  index: -1
+fmonster-fly-1
+  rotate: false
+  xy: 1, 1
+  size: 97, 105
+  orig: 97, 105
+  offset: 0, 0
+  index: -1
+fmonster-fly-2
+  rotate: false
+  xy: 100, 1
+  size: 97, 105
+  orig: 97, 105
+  offset: 0, 0
+  index: -1
+fmonster-fly-3
+  rotate: false
+  xy: 199, 1
+  size: 97, 105
+  orig: 97, 105
+  offset: 0, 0
+  index: -1
+fmonster-fly-4
+  rotate: false
+  xy: 298, 1
+  size: 97, 105
+  orig: 97, 105
+  offset: 0, 0
+  index: -1
+fmonster-die-1
+  rotate: false
+  xy: 397, 22
+  size: 107, 84
+  orig: 107, 84
+  offset: 0, 0
+  index: -1
+
+flymonsters2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fappy-die-3
+  rotate: false
+  xy: 1, 691
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-11
+  rotate: false
+  xy: 558, 597
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+fappy-die-4
+  rotate: false
+  xy: 1, 393
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-12
+  rotate: false
+  xy: 1, 1
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+lord-fly-13
+  rotate: false
+  xy: 396, 1
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+bird-die-2
+  rotate: false
+  xy: 558, 393
+  size: 89, 202
+  orig: 89, 202
+  offset: 0, 0
+  index: -1
+bird-die-3
+  rotate: false
+  xy: 649, 393
+  size: 89, 202
+  orig: 89, 202
+  offset: 0, 0
+  index: -1
+bird-die-4
+  rotate: false
+  xy: 740, 393
+  size: 89, 202
+  orig: 89, 202
+  offset: 0, 0
+  index: -1
+butcher-die-1
+  rotate: false
+  xy: 831, 413
+  size: 189, 182
+  orig: 189, 182
+  offset: 0, 0
+  index: -1
+tikbalang-die-10
+  rotate: false
+  xy: 831, 31
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+
+flymonsters3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fappy-die-5
+  rotate: false
+  xy: 1, 691
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-14
+  rotate: false
+  xy: 558, 597
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+fappy-die-6
+  rotate: false
+  xy: 1, 393
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-15
+  rotate: false
+  xy: 1, 1
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+lord-fly-2
+  rotate: false
+  xy: 396, 1
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+bird-die-5
+  rotate: false
+  xy: 558, 393
+  size: 89, 202
+  orig: 89, 202
+  offset: 0, 0
+  index: -1
+fappy-fly-2
+  rotate: false
+  xy: 649, 398
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+butcher-fly-1
+  rotate: false
+  xy: 791, 212
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+butcher-fly-2
+  rotate: false
+  xy: 791, 26
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+
+flymonsters4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fappy-die-7
+  rotate: false
+  xy: 1, 691
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-3
+  rotate: false
+  xy: 558, 597
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+fappy-die-8
+  rotate: false
+  xy: 1, 393
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-4
+  rotate: false
+  xy: 1, 1
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+lord-fly-5
+  rotate: false
+  xy: 396, 1
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+fappy-fly-3
+  rotate: false
+  xy: 558, 398
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+fmonster-die-2
+  rotate: false
+  xy: 924, 446
+  size: 97, 149
+  orig: 97, 149
+  offset: 0, 0
+  index: -1
+fmonster-die-3
+  rotate: false
+  xy: 924, 295
+  size: 97, 149
+  orig: 97, 149
+  offset: 0, 0
+  index: -1
+bird-fly-1
+  rotate: false
+  xy: 791, 231
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+fmonster-die-4
+  rotate: false
+  xy: 919, 144
+  size: 97, 149
+  orig: 97, 149
+  offset: 0, 0
+  index: -1
+bird-fly-2
+  rotate: false
+  xy: 791, 64
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+
+flymonsters5.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fappy-die-9
+  rotate: false
+  xy: 1, 699
+  size: 555, 296
+  orig: 555, 296
+  offset: 0, 0
+  index: -1
+lord-fly-6
+  rotate: false
+  xy: 558, 605
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+lord-fly-7
+  rotate: false
+  xy: 1, 307
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+tikbalang-die-2
+  rotate: false
+  xy: 396, 317
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+tikbalang-fly-1
+  rotate: false
+  xy: 1, 1
+  size: 312, 304
+  orig: 312, 304
+  offset: 0, 0
+  index: -1
+tikbalang-fly-2
+  rotate: false
+  xy: 315, 1
+  size: 312, 304
+  orig: 312, 304
+  offset: 0, 0
+  index: -1
+lord-fly-8
+  rotate: false
+  xy: 629, 213
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+fappy-fly-4
+  rotate: false
+  xy: 629, 14
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+
+flymonsters6.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lord-fly-9
+  rotate: false
+  xy: 1, 584
+  size: 393, 390
+  orig: 393, 390
+  offset: 0, 0
+  index: -1
+lord-die-10
+  rotate: false
+  xy: 396, 592
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+butcher-fly-3
+  rotate: false
+  xy: 778, 790
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+butcher-fly-4
+  rotate: false
+  xy: 778, 604
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+butcher-fly-5
+  rotate: false
+  xy: 778, 418
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+lord-die-2
+  rotate: false
+  xy: 396, 208
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+lord-die-3
+  rotate: false
+  xy: 1, 200
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+butcher-fly-6
+  rotate: false
+  xy: 778, 232
+  size: 200, 184
+  orig: 200, 184
+  offset: 0, 0
+  index: -1
+fappy-fly-5
+  rotate: false
+  xy: 1, 1
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+fappy-fly-6
+  rotate: false
+  xy: 367, 1
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+bird-fly-3
+  rotate: false
+  xy: 733, 41
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+bird-fly-4
+  rotate: false
+  xy: 861, 65
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+
+flymonsters7.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lord-die-4
+  rotate: false
+  xy: 1, 584
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+lord-die-5
+  rotate: false
+  xy: 1, 200
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+fappy-fly-7
+  rotate: false
+  xy: 1, 1
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+fappy-fly-8
+  rotate: false
+  xy: 367, 1
+  size: 364, 197
+  orig: 364, 197
+  offset: 0, 0
+  index: -1
+butcher-die-2
+  rotate: false
+  xy: 733, 592
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+butcher-die-3
+  rotate: false
+  xy: 733, 216
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+bird-fly-5
+  rotate: false
+  xy: 733, 49
+  size: 126, 165
+  orig: 126, 165
+  offset: 0, 0
+  index: -1
+butcher-die-4
+  rotate: false
+  xy: 383, 592
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+butcher-die-5
+  rotate: false
+  xy: 383, 216
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+
+flymonsters8.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lord-die-1
+  rotate: false
+  xy: 1, 683
+  size: 343, 294
+  orig: 343, 294
+  offset: 0, 0
+  index: -1
+tikbalang-die-1
+  rotate: false
+  xy: 346, 673
+  size: 157, 304
+  orig: 157, 304
+  offset: 0, 0
+  index: -1
+tikbalang-fly-3
+  rotate: false
+  xy: 505, 673
+  size: 312, 304
+  orig: 312, 304
+  offset: 0, 0
+  index: -1
+tikbalang-die-3
+  rotate: false
+  xy: 819, 597
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+tikbalang-fly-4
+  rotate: false
+  xy: 1, 377
+  size: 312, 304
+  orig: 312, 304
+  offset: 0, 0
+  index: -1
+butcher-die-6
+  rotate: false
+  xy: 315, 297
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+tikbalang-die-4
+  rotate: false
+  xy: 602, 291
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+tikbalang-die-5
+  rotate: false
+  xy: 764, 215
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+butcher-die-7
+  rotate: false
+  xy: 1, 1
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+
+flymonsters9.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lord-die-6
+  rotate: false
+  xy: 1, 385
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+lord-die-7
+  rotate: false
+  xy: 1, 1
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+lord-die-8
+  rotate: false
+  xy: 383, 385
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+lord-die-9
+  rotate: false
+  xy: 383, 1
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+tikbalang-die-6
+  rotate: false
+  xy: 765, 387
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+tikbalang-die-7
+  rotate: false
+  xy: 765, 5
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+
+flymonsters10.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+butcher-die-8
+  rotate: false
+  xy: 1, 7
+  size: 285, 374
+  orig: 285, 374
+  offset: 0, 0
+  index: -1
+tikbalang-die-8
+  rotate: false
+  xy: 288, 1
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1
+tikbalang-die-9
+  rotate: false
+  xy: 450, 1
+  size: 160, 380
+  orig: 160, 380
+  offset: 0, 0
+  index: -1

@@ -50,7 +50,9 @@ public abstract class LoadingScreenAbstract implements Screen {
 		progress = Interpolation.linear.apply(progress, ResourceManager.getProgress(), 0.02f);
 		
 		// if unload and load is done, automatically set to next screen
-		if (ResourceManager.isLoadDone() && progress > 0.99f) {
+		if (ResourceManager.isLoadDone() 
+//				&& progress > 0.99f
+				) {
 			game_.setScreen(nextScreen_);
 		}
 	}

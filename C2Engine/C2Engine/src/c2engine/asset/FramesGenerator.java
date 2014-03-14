@@ -1,6 +1,7 @@
 package c2engine.asset;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class FramesGenerator {
@@ -37,6 +38,50 @@ public class FramesGenerator {
 		}
 		
 		return result;
+	}
+	
+	/**
+	 * get key frames
+	 * @param textureAtlas
+	 * @param keyFrame
+	 * @param startFrame
+	 * @param endFrame
+	 * @return keyFrames
+	 */
+	public static TextureRegion[] getKeyFrames(TextureAtlas textureAtlas, String keyFrame, int startFrame, int endFrame) {
+		int size = endFrame - startFrame + 1;
+		
+		TextureRegion[] trRegions = new TextureRegion[size];
+		
+		for (int i = 0; i < size; i++) {
+			trRegions[i] = textureAtlas.findRegion(keyFrame+(i+startFrame));
+		}
+		
+		return trRegions;
+	}
+	
+	/**
+	 * get keyframe
+	 * @param keyFrames
+	 * @return keyframes
+	 */
+	public static TextureRegion[] getKeyFrames(TextureRegion[] ... keyFrames) {
+		int size = 0;
+		for (int i = 0; i < keyFrames.length; i++) {
+			size += keyFrames[i].length;
+		}
+		
+		int k = 0;
+		TextureRegion[] trRegions = new TextureRegion[size];
+		
+		for (int i = 0; i < keyFrames.length; i++) {
+			for (int j = 0; j < keyFrames[i].length; j++) {
+				trRegions[k] = keyFrames[i][j];
+				k++;
+			}
+		}
+		
+		return trRegions;
 	}
 
 }

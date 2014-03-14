@@ -78,11 +78,11 @@ public class TestScreen2 extends XScreen implements AssetManageable {
 
 	@Override
 	public void draw(float delta) {
-		spriteBatch.begin();
-		spriteBatch.draw(ResourceManager.getTexture(TestAssets.TX_TEST_BACKGROUND),200,0);
-		spriteAnimationSimple.draw(spriteBatch);
-		testSpriteAnimation.draw(spriteBatch);
-		spriteBatch.end();
+		batch.begin();
+		batch.draw(ResourceManager.getTexture(TestAssets.TX_TEST_BACKGROUND),200,0);
+		spriteAnimationSimple.draw(batch);
+		testSpriteAnimation.draw(batch);
+		batch.end();
 	}
 
 	@Override

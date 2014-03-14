@@ -8,12 +8,14 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Camera;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 
 public abstract class XScreen implements Screen {
 	protected static Camera camera;
-	protected static SpriteBatch spriteBatch;
+	protected static SpriteBatch batch;
 	protected static XGame coreGame;
-	protected static InputMultiplexer inputMultiplexer;
+	protected static InputMultiplexer inputMultiplexer = new InputMultiplexer();
+	protected static Stage stage;
 	
 	public static void setCoreGame(XGame myGame) {
 		XScreen.coreGame = myGame;

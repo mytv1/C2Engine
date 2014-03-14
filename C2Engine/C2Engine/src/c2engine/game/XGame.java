@@ -10,6 +10,7 @@ import com.badlogic.gdx.Screen;
 
 public abstract class XGame extends Game {
 	private LoadingScreenAbstract loadingScreenAbstract;
+	private static int WIDTH = 0, HEIGHT = 0;
 
 	@Override
 	public void create() {
@@ -40,5 +41,16 @@ public abstract class XGame extends Game {
 		setScreen(loadingScreenAbstract);
 	}
 	
-
+	public void setResolution(int width,int height){
+		WIDTH = width;
+		HEIGHT = height;
+	}
+	
+	public static int getWidth() {
+		return WIDTH;
+	}
+	
+	public static int getHeight() {
+		return HEIGHT;
+	}
 }

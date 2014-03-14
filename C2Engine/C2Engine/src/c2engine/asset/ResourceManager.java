@@ -2,6 +2,8 @@ package c2engine.asset;
 
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.Texture.TextureFilter;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 /**
  * 
@@ -32,8 +34,18 @@ public class ResourceManager {
 	 * @return
 	 */
 	public static Texture getTexture(Asset asset){
-		return assetManager.get(asset.pathName, Texture.class);
+		// get texture
+		Texture texture = assetManager.get(asset.pathName, Texture.class);
+		// filter
+		texture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
+		return texture;
 	}
+	
+	public static Skin getSkin(Asset asset){
+		return assetManager.get(asset.pathName, Skin.class);
+	}
+	
+	
 	
 	public static float getProgress() {
 		return assetManager.getProgress();

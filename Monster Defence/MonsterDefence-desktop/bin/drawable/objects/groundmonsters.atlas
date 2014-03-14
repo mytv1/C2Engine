@@ -1,0 +1,626 @@
+
+groundmonsters.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mwarrior-die-1
+  rotate: false
+  xy: 1, 858
+  size: 224, 165
+  orig: 224, 165
+  offset: 0, 0
+  index: -1
+mwarrior-die-2
+  rotate: false
+  xy: 227, 858
+  size: 224, 165
+  orig: 224, 165
+  offset: 0, 0
+  index: -1
+mwarrior-die-3
+  rotate: false
+  xy: 453, 858
+  size: 224, 165
+  orig: 224, 165
+  offset: 0, 0
+  index: -1
+mwarrior-die-4
+  rotate: false
+  xy: 679, 858
+  size: 224, 165
+  orig: 224, 165
+  offset: 0, 0
+  index: -1
+pumpkin-die-1
+  rotate: false
+  xy: 905, 943
+  size: 117, 80
+  orig: 117, 80
+  offset: 0, 0
+  index: -1
+zombie-die-2
+  rotate: false
+  xy: 905, 812
+  size: 114, 129
+  orig: 114, 129
+  offset: 0, 0
+  index: -1
+mwarrior-run-1
+  rotate: false
+  xy: 1, 627
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+snail-die-1
+  rotate: false
+  xy: 1, 818
+  size: 41, 38
+  orig: 41, 38
+  offset: 0, 0
+  index: -1
+snail-run-1
+  rotate: false
+  xy: 44, 822
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+snail-run-2
+  rotate: false
+  xy: 87, 822
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+snail-run-3
+  rotate: false
+  xy: 130, 822
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+snail-run-4
+  rotate: false
+  xy: 173, 822
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+mwarrior-run-2
+  rotate: false
+  xy: 1, 442
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+mwarrior-run-3
+  rotate: false
+  xy: 1, 257
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+mwarrior-run-4
+  rotate: false
+  xy: 1, 72
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+worm-die-1
+  rotate: false
+  xy: 1, 2
+  size: 89, 68
+  orig: 89, 68
+  offset: 0, 0
+  index: -1
+worm-die-2
+  rotate: false
+  xy: 92, 2
+  size: 89, 68
+  orig: 89, 68
+  offset: 0, 0
+  index: -1
+mwarrior-die-5
+  rotate: false
+  xy: 216, 691
+  size: 224, 165
+  orig: 224, 165
+  offset: 0, 0
+  index: -1
+snail-up-1
+  rotate: false
+  xy: 183, 771
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+snail-up-2
+  rotate: false
+  xy: 183, 720
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+mwarrior-run-5
+  rotate: false
+  xy: 442, 673
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+mwarrior-run-6
+  rotate: false
+  xy: 183, 506
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+zombie-up-1
+  rotate: false
+  xy: 363, 558
+  size: 70, 131
+  orig: 70, 131
+  offset: 0, 0
+  index: -1
+teddy-run-1
+  rotate: false
+  xy: 622, 699
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+zombie-run-1
+  rotate: false
+  xy: 770, 729
+  size: 130, 127
+  orig: 130, 127
+  offset: 0, 0
+  index: -1
+warrior-die-1
+  rotate: false
+  xy: 902, 709
+  size: 119, 101
+  orig: 119, 101
+  offset: 0, 0
+  index: -1
+zombie-run-2
+  rotate: false
+  xy: 770, 600
+  size: 130, 127
+  orig: 130, 127
+  offset: 0, 0
+  index: -1
+teddy-run-2
+  rotate: false
+  xy: 622, 540
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+warrior-die-2
+  rotate: false
+  xy: 902, 606
+  size: 119, 101
+  orig: 119, 101
+  offset: 0, 0
+  index: -1
+warrior-die-3
+  rotate: false
+  xy: 902, 503
+  size: 119, 101
+  orig: 119, 101
+  offset: 0, 0
+  index: -1
+zombie-run-3
+  rotate: false
+  xy: 770, 471
+  size: 130, 127
+  orig: 130, 127
+  offset: 0, 0
+  index: -1
+zombie-die-3
+  rotate: false
+  xy: 902, 372
+  size: 114, 129
+  orig: 114, 129
+  offset: 0, 0
+  index: -1
+teddy-run-3
+  rotate: false
+  xy: 435, 514
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+zombie-up-2
+  rotate: false
+  xy: 363, 425
+  size: 70, 131
+  orig: 70, 131
+  offset: 0, 0
+  index: -1
+teddy-run-4
+  rotate: false
+  xy: 183, 347
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+teddy-run-5
+  rotate: false
+  xy: 583, 381
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+teddy-run-6
+  rotate: false
+  xy: 435, 355
+  size: 146, 157
+  orig: 146, 157
+  offset: 0, 0
+  index: -1
+mwarrior-up-1
+  rotate: false
+  xy: 331, 249
+  size: 99, 174
+  orig: 99, 174
+  offset: 0, 0
+  index: -1
+teddy-die-1
+  rotate: false
+  xy: 183, 192
+  size: 146, 153
+  orig: 146, 153
+  offset: 0, 0
+  index: -1
+snack-up-1
+  rotate: false
+  xy: 181, 85
+  size: 52, 105
+  orig: 52, 105
+  offset: 0, 0
+  index: -1
+pumpkin-run-1
+  rotate: false
+  xy: 183, 1
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+snack-up-2
+  rotate: false
+  xy: 235, 85
+  size: 52, 105
+  orig: 52, 105
+  offset: 0, 0
+  index: -1
+pumpkin-run-2
+  rotate: false
+  xy: 276, 1
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+warrior-run-1
+  rotate: false
+  xy: 289, 93
+  size: 81, 97
+  orig: 81, 97
+  offset: 0, 0
+  index: -1
+ghost-up-1
+  rotate: false
+  xy: 369, 1
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+teddy-die-2
+  rotate: false
+  xy: 372, 94
+  size: 146, 153
+  orig: 146, 153
+  offset: 0, 0
+  index: -1
+snail-die-2
+  rotate: false
+  xy: 331, 217
+  size: 38, 30
+  orig: 38, 30
+  offset: 0, 0
+  index: -1
+ghost-up-2
+  rotate: false
+  xy: 426, 2
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1
+warrior-up-1
+  rotate: false
+  xy: 483, 5
+  size: 63, 87
+  orig: 63, 87
+  offset: 0, 0
+  index: -1
+warrior-run-2
+  rotate: false
+  xy: 432, 256
+  size: 81, 97
+  orig: 81, 97
+  offset: 0, 0
+  index: -1
+warrior-run-3
+  rotate: false
+  xy: 515, 256
+  size: 81, 97
+  orig: 81, 97
+  offset: 0, 0
+  index: -1
+teddy-die-3
+  rotate: false
+  xy: 520, 101
+  size: 146, 153
+  orig: 146, 153
+  offset: 0, 0
+  index: -1
+warrior-run-4
+  rotate: false
+  xy: 548, 2
+  size: 81, 97
+  orig: 81, 97
+  offset: 0, 0
+  index: -1
+worm-up-1
+  rotate: false
+  xy: 631, 3
+  size: 55, 96
+  orig: 55, 96
+  offset: 0, 0
+  index: -1
+worm-up-2
+  rotate: false
+  xy: 598, 274
+  size: 55, 96
+  orig: 55, 96
+  offset: 0, 0
+  index: -1
+snack-die-1
+  rotate: false
+  xy: 655, 278
+  size: 84, 92
+  orig: 84, 92
+  offset: 0, 0
+  index: -1
+mwarrior-up-2
+  rotate: false
+  xy: 668, 102
+  size: 99, 174
+  orig: 99, 174
+  offset: 0, 0
+  index: -1
+zombie-run-4
+  rotate: false
+  xy: 769, 342
+  size: 130, 127
+  orig: 130, 127
+  offset: 0, 0
+  index: -1
+worm-die-3
+  rotate: false
+  xy: 741, 282
+  size: 84, 58
+  orig: 84, 58
+  offset: 0, 0
+  index: -1
+warrior-up-2
+  rotate: false
+  xy: 688, 13
+  size: 63, 87
+  orig: 63, 87
+  offset: 0, 0
+  index: -1
+ghost-run-1
+  rotate: false
+  xy: 753, 17
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+pumpkin-up-1
+  rotate: false
+  xy: 901, 298
+  size: 97, 72
+  orig: 97, 72
+  offset: 0, 0
+  index: -1
+zombie-die-4
+  rotate: false
+  xy: 843, 218
+  size: 137, 78
+  orig: 137, 78
+  offset: 0, 0
+  index: -1
+ghost-run-2
+  rotate: false
+  xy: 769, 133
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+ghost-run-6
+  rotate: false
+  xy: 769, 133
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+zombie-run-5
+  rotate: false
+  xy: 843, 4
+  size: 130, 127
+  orig: 130, 127
+  offset: 0, 0
+  index: -1
+ghost-run-3
+  rotate: false
+  xy: 859, 133
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+ghost-run-5
+  rotate: false
+  xy: 859, 133
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+
+groundmonsters2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+teddy-up-1
+  rotate: false
+  xy: 1, 128
+  size: 130, 125
+  orig: 130, 125
+  offset: 0, 0
+  index: -1
+teddy-up-2
+  rotate: false
+  xy: 1, 1
+  size: 130, 125
+  orig: 130, 125
+  offset: 0, 0
+  index: -1
+zombie-die-1
+  rotate: false
+  xy: 133, 121
+  size: 95, 132
+  orig: 95, 132
+  offset: 0, 0
+  index: -1
+pumpkin-run-3
+  rotate: false
+  xy: 133, 37
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+pumpkin-run-4
+  rotate: false
+  xy: 230, 171
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+pumpkin-run-5
+  rotate: false
+  xy: 323, 171
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+pumpkin-run-6
+  rotate: false
+  xy: 416, 171
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+ghost-run-4
+  rotate: false
+  xy: 509, 170
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+pumpkin-up-2
+  rotate: false
+  xy: 599, 181
+  size: 97, 72
+  orig: 97, 72
+  offset: 0, 0
+  index: -1
+worm-run-1
+  rotate: false
+  xy: 698, 186
+  size: 94, 67
+  orig: 94, 67
+  offset: 0, 0
+  index: -1
+worm-run-2
+  rotate: false
+  xy: 794, 186
+  size: 94, 67
+  orig: 94, 67
+  offset: 0, 0
+  index: -1
+worm-run-3
+  rotate: false
+  xy: 890, 186
+  size: 94, 67
+  orig: 94, 67
+  offset: 0, 0
+  index: -1
+worm-run-4
+  rotate: false
+  xy: 230, 102
+  size: 94, 67
+  orig: 94, 67
+  offset: 0, 0
+  index: -1
+snack-run-1
+  rotate: false
+  xy: 326, 98
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+snack-run-2
+  rotate: false
+  xy: 415, 98
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+snack-run-3
+  rotate: false
+  xy: 504, 97
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+snack-run-5
+  rotate: false
+  xy: 504, 97
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+snack-run-4
+  rotate: false
+  xy: 226, 29
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+snack-run-6
+  rotate: false
+  xy: 315, 25
+  size: 87, 71
+  orig: 87, 71
+  offset: 0, 0
+  index: -1
+ghost-die-1
+  rotate: false
+  xy: 404, 30
+  size: 80, 66
+  orig: 80, 66
+  offset: 0, 0
+  index: -1

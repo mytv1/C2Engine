@@ -27,8 +27,8 @@ public class TestScreen extends XScreen implements AssetManageable {
 	private void configure() {
 		camera = new OrthographicCamera(800, 480);
 		camera.position.set(400, 240, 0);
-		spriteBatch = new SpriteBatch();
-		spriteBatch.setProjectionMatrix(camera.combined);
+		batch = new SpriteBatch();
+		batch.setProjectionMatrix(camera.combined);
 	}
 
 	@Override
@@ -63,15 +63,15 @@ public class TestScreen extends XScreen implements AssetManageable {
 
 	@Override
 	public void draw(float delta) {
-		spriteBatch.begin();
-		spriteBatch.draw(texture, 0, 0);
-		spriteBatch.end();
+		batch.begin();
+		batch.draw(texture, 0, 0);
+		batch.end();
 	}
 
 	@Override
 	public void update(float delta) {
 		camera.update();
-		spriteBatch.setProjectionMatrix(camera.combined);
+		batch.setProjectionMatrix(camera.combined);
 		if (Gdx.input.justTouched())
 			setScreen(new TestScreen2());
 	}
