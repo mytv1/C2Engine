@@ -17,8 +17,8 @@ public class MonsterDefence extends XGame {
 
 	@Override
 	public Screen createStartedScreen() {
-//		return new ScreenToolMainMenu();
-		return new ScreenPlay();
+		return new ScreenToolMainMenu();
+//		return new ScreenPlay();
 	}
 
 	@Override

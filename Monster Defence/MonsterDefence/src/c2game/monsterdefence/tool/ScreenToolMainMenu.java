@@ -106,6 +106,7 @@ public class ScreenToolMainMenu extends XScreen implements AssetManageable{
 		assets.add(Assets.TX_BG_MAP_1);
 		assets.add(Assets.TX_BG_MAP_2);
 		assets.add(Assets.TX_BG_MAP_3);
+		assets.add(Assets.TX_WHITE_BOARD);
 		return assets;
 	}
 

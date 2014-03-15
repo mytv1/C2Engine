@@ -1,6 +1,7 @@
 package c2game.monsterdefence.game.assets;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.NinePatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
@@ -9,6 +10,7 @@ import c2engine.asset.Asset;
 public class Assets {
 	// tool gui
 	public static Asset SK_UI = new Asset("tool-gui/uiskin.json", Skin.class);
+	public static Asset TX_WHITE_BOARD = new Asset("tool-gui/white-board.png", Texture.class);
 	
 	// backgrounds
 	public static Asset TX_BG_MAP_1 = new Asset("drawable/backgrounds/bgmap1.jpg", Texture.class);
@@ -66,4 +68,6 @@ public class Assets {
 	
 	// String
 	public static String STR_TOOL_WRITE_PATH = "tool";
+
+	
 }

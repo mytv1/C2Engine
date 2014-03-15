@@ -7,6 +7,14 @@ import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 
 public class XImage extends Image{
 	
+	public XImage() {
+		super();
+	}
+	
+	public XImage(Texture texture){
+		super(texture);
+	}
+	
 	public void setTexture(Texture texture){
 		setDrawable(new TextureRegionDrawable(new TextureRegion(texture)));
 	}
